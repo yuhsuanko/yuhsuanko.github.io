@@ -1,0 +1,70 @@
+---
+layout: page
+title: About me
+subtitle: Hi
+---
+
+<section>
+  <h2>My Story</h2>
+  <p>
+    I’m a data scientist with a focus on fighting financial crime through machine learning and data-driven insights. From developing AML models that detect suspicious patterns to building RPA pipelines that save hundreds of hours, I’ve worked at the intersection of compliance, AI, and business impact. <br><br>
+    With roots in Taiwan and new beginnings in Chicago, I bring a global perspective and a relentless curiosity to every challenge I face—because to me, data isn't just numbers; it's a tool for protecting trust and creating smarter systems.
+  </p>
+</section>
+
+<hr style="margin: 50px 0;">
+
+<section style="background-color: #f9f9f9; padding: 30px; border-radius: 8px;">
+  <h2>Core Qualities</h2>
+  <ul>
+    <li><strong>Purpose-Driven Problem Solver:</strong> I care about building systems that matter—especially in fraud prevention, compliance, and real-world impact.</li>
+    <li><strong>Efficiency-Oriented Innovator:</strong> I constantly look for ways to automate, streamline, and simplify, turning repetitive tasks into intelligent workflows.</li>
+    <li><strong>Bilingual Communicator in Tech and Business:</strong> I translate complex models into clear insights for stakeholders, bridging the gap between data teams and decision-makers.</li>
+  </ul>
+</section>
+
+<hr style="margin: 50px 0;">
+
+<section>
+  <h2>3 Key Takeaways</h2>
+  <ul>
+    <li><strong>Data science aligned with purpose:</strong> I build models not just to predict, but to protect.</li>
+    <li><strong>Automation unlocks human potential:</strong> RPA isn’t just about speed—it’s about freeing teams to think better.</li>
+    <li><strong>Communication drives adoption:</strong> My role is to make insights actionable and relevant to real-world decisions.</li>
+  </ul>
+</section>
+
+<hr style="margin: 50px 0;">
+
+<section>
+  <h2>My Education</h2>
+
+  <div style="display: flex; align-items: center; margin-bottom: 30px;">
+    <img src="/assets/img/uchicago.png" alt="University of Chicago Logo" style="width: 100px; margin-right: 30px;">
+    <div>
+      <h3>The University of Chicago</h3>
+      <p>September 2024 – December 2025<br>Master of Science in Applied Data Science</p>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/img/ntnu.png" alt="National Taiwan Normal University Logo" style="width: 100px; margin-right: 30px;">
+    <div>
+      <h3>National Taiwan Normal University</h3>
+      <p>September 2018 – June 2022<br>Bachelor of Business Administration</p>
+    </div>
+  </div>
+</section>
+
+<hr style="margin: 50px 0;">
+
+<section>
+  <h2>My Certification</h2>
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/img/CAMS.jpg" alt="CAMS Certification Logo" style="width: 100px; margin-right: 30px;">
+    <div>
+      <h3>Certified Anti-Money Laundering Specialist (CAMS)</h3>
+      <p>Issued by ACAMS – Earned in 2024<br>Credential ID available upon request</p>
+    </div>
+  </div>
+</section>
