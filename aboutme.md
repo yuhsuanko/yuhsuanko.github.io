@@ -64,7 +64,7 @@ subtitle: Hi
     <img src="/assets/img/CAMS.jpg" alt="CAMS Certification Logo" style="width: 100px; margin-right: 30px;">
     <div>
       <h3>Certified Anti-Money Laundering Specialist (CAMS)</h3>
-      <p>Issued by ACAMS – Earned in 2024<br>Credential ID available upon request</p>
+      <p>Issued by ACAMS – Earned in April 2024<br>Credential ID： ER-005161927</p>
     </div>
   </div>
 </section>
