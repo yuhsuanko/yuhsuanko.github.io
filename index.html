@@ -1,7 +1,6 @@
 ---
-layout: home
+layout: default
 title: Monica Ko
-subtitle: Hi, I'm Monica. I'm a data scientist focused on anti-money laundering and fraud detection.
 ---
 
 <!-- About Me Section -->
@@ -11,24 +10,55 @@ subtitle: Hi, I'm Monica. I'm a data scientist focused on anti-money laundering 
     I’m Yu-Hsuan (Monica) Ko, a data scientist passionate about building trustworthy AI systems to detect fraud and protect financial ecosystems.<br>
     With experience across Taiwan’s top banks and global academic training from the University of Chicago, I blend machine learning, compliance, and human insight to solve real-world problems.
   </p>
-  <p>
-    <a href="/aboutme" class="btn">More About Me →</a>
-  </p>
+  <p><a href="/aboutme" class="btn">More About Me →</a></p>
 </section>
 
 <!-- Latest Blog Posts Section -->
-<section class="latest-posts" style="margin: 3rem auto; max-width: 800px;">
+<section class="latest-posts" style="margin-top: 3rem;">
   <h2 style="text-align: center;">Latest Blog Posts</h2>
+
+  {% assign posts = site.posts | slice: 0, 3 %}
   <ul class="posts-list list-unstyled" role="list">
-    {% for post in site.posts limit:3 %}
-    <li class="post-preview" style="margin-bottom: 2rem;">
-      <a href="{{ post.url | absolute_url }}">
-        <h3 class="post-title">{{ post.title | strip_html }}</h3>
-        <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
-        <small>Posted on {{ post.date | date: "%B %-d, %Y" }}</small>
-      </a>
+    {% for post in posts %}
+    <li class="post-preview">
+      <article>
+        <a href="{{ post.url | absolute_url }}">
+          <h2 class="post-title">{{ post.title | strip_html }}</h2>
+          {% if post.subtitle %}
+          <h3 class="post-subtitle">{{ post.subtitle | strip_html }}</h3>
+          {% endif %}
+        </a>
+
+        {% if post.author %}
+        <span>By <strong>{{ post.author | strip_html }}</strong></span>
+        {% endif %}
+        <p class="post-meta">
+          Posted on {{ post.date | date: "%B %-d, %Y" }}
+        </p>
+
+        {% if post.excerpt %}
+        <div class="post-entry">
+          {{ post.excerpt | strip_html | truncatewords: 50 }}
+          <a href="{{ post.url | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>
+        </div>
+        {% endif %}
+
+        {% if site.feed_show_tags != false and post.tags.size > 0 %}
+        <div class="blog-tags">
+          <span>Tags:</span>
+          <ul class="d-inline list-inline" role="list">
+            {% for tag in post.tags %}
+            <li class="list-inline-item">
+              <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </article>
     </li>
     {% endfor %}
   </ul>
+
   <p style="text-align: center;"><a href="/blog/">See all posts →</a></p>
 </section>
