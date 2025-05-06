@@ -59,7 +59,7 @@ subtitle: Hi
     <img src="/assets/img/LINE.png" alt="LINE Taiwan Limited Logo" style="width: 100px; margin-right: 30px;">
     <div>
       <h3>LINE Taiwan Limited</h3>
-      <p>October 2022 – Feburary 2024<br>Data Management Specialist, Customer Care UX Team</p>
+      <p>October 2022 – Feburary 2023<br>Data Management Specialist, Customer Care UX Team</p>
     </div>
   </div>
 </section>
