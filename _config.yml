@@ -24,8 +24,9 @@ navbar-links:
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
+  Blogs: "blog"
   Projects: "project"
-  Resume: "Resume"
+  Resume: "resume"
   #Author's home: "https://deanattali.com"
 
 ################
