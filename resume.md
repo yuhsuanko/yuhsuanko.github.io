@@ -14,7 +14,7 @@ permalink: /resume/
   <h2 style="margin-bottom: 1rem;">📄 View Resume</h2>
 
   <iframe 
-    src="{{ '/assets/files/resume.pdf' | relative_url }}" 
+    src="{{ '/assets/files/Yu-Hsuan_Monica_Ko_Resume.pdf' | relative_url }}" 
     width="100%" 
     height="900px" 
     style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
