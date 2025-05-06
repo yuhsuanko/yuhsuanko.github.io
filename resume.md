@@ -22,7 +22,7 @@ permalink: /resume/
 
   <p style="margin-top: 2rem;">
     <a 
-      href="{{ '/assets/files/resume.pdf' | relative_url }}" 
+      href="{{ '/assets/files/Yu-Hsuan_Monica_Ko_Resume.pdf' | relative_url }}" 
       target="_blank" 
       rel="noopener" 
       style="
