@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-subtitle: data science projects
+subtitle: data science projects (still editing)
 ---
 
 ## Neural Network-Based Detection of AI-Generated Human Images
