@@ -46,6 +46,8 @@ subtitle: Hi
   </ul>
 </section>
 
+<hr style="margin: 50px 0;">
+
 <section>
   <h2>My Experience</h2>
 
