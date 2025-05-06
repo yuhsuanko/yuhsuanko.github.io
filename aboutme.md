@@ -37,6 +37,36 @@ subtitle: Hi
 <hr style="margin: 50px 0;">
 
 <section>
+  <h2>My Experience</h2>
+
+  <div style="display: flex; align-items: center; margin-bottom: 30px;">
+    <img src="/assets/img/esunbank.png" alt="E.SUN BANK Logo" style="width: 100px; margin-right: 30px;">
+    <div>
+      <h3>E.SUN Commercial Bank</h3>
+      <p>July 2023 – September 2024<br>Data Analyst, Risk Management Division</p>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/img/scsb.png" alt="The Shanghai Commercial & Savings Bank Logo" style="width: 100px; margin-right: 30px;">
+    <div>
+      <h3>The Shanghai Commercial & Savings Bank</h3>
+      <p>March 2023 – June 2023<br>Data Scientist Intern, Head Office of Strategic Planning</p>
+    </div>
+  </div>
+  
+  <div style="display: flex; align-items: center; margin-bottom: 30px;">
+    <img src="/assets/img/LINE.png" alt="LINE Taiwan Limited Logo" style="width: 100px; margin-right: 30px;">
+    <div>
+      <h3>LINE Taiwan Limited</h3>
+      <p>October 2022 – Feburary 2024<br>Data Management Specialist, Customer Care UX Team</p>
+    </div>
+  </div>
+</section>
+
+<hr style="margin: 50px 0;">
+
+<section>
   <h2>My Education</h2>
 
   <div style="display: flex; align-items: center; margin-bottom: 30px;">
