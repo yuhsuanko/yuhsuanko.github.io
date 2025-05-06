@@ -36,6 +36,16 @@ subtitle: Hi
 
 <hr style="margin: 50px 0;">
 
+<section class="skills-section" style="text-align: left; margin: 2rem auto; max-width: 800px;">
+  <h2 style="text-align: left;">Skills</h2>
+  <ul>
+    <li><strong>Programming Languages:</strong> Python (scikit-learn, PySpark, TensorFlow, PyTorch, transformers), SQL, R, Java, JavaScript</li>
+    <li><strong>Technology Tools:</strong> GCP, AWS, Azure, Linux, Hadoop, Spark, Hive, Git, Docker, UiPath, Confluence, JIRA</li>
+    <li><strong>ML / DL / LLM:</strong> XGBoost, LightGBM, Random Forest, NLP, Recommendation Systems, CNNs, GPT, LLaMA, CrewAI</li>
+    <li><strong>Data Visualization & Statistical Analysis:</strong> Tableau, Neo4j, SAS, SPSS, STATA</li>
+  </ul>
+</section>
+
 <section>
   <h2>My Experience</h2>
 
