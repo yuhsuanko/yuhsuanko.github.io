@@ -1,13 +1,8 @@
- ---
-layout: page
-title: Monica Ko
 ---
-
-<!-- Hero -->
-<h1 style="text-align: center;">Monica Ko</h1>
-<p style="text-align: center;">
-  Hi, I'm Monica. I'm a data scientist focused on anti-money laundering and fraud detection.
-</p>
+layout: home
+title: Monica Ko
+subtitle: Hi, I'm Monica. I'm a data scientist focused on anti-money laundering and fraud detection.
+---
 
 <!-- About Me Section -->
 <section class="about-section" style="text-align: center; margin: 2rem auto;">
@@ -22,14 +17,14 @@ title: Monica Ko
 <!-- Latest Blog Posts Section -->
 <section class="latest-blog-section">
   <h2 style="text-align: center;">Latest Blog Posts</h2>
-  <div class="page-content">
 
-    {% assign posts = site.posts | slice: 0, 3 %}
+  <!-- ✅ 限制內容寬度 -->
+  <div class="page-content">
     <ul class="posts-list list-unstyled" role="list">
+      {% assign posts = site.posts | slice: 0, 3 %}
       {% for post in posts %}
       <li class="post-preview">
         <article>
-
           {%- capture thumbnail -%}
             {% if post.thumbnail-img %}
               {{ post.thumbnail-img }}
@@ -42,6 +37,14 @@ title: Monica Ko
             {% endif %}
           {% endcapture %}
           {% assign thumbnail=thumbnail | strip %}
+
+          {% if site.feed_show_excerpt == false and thumbnail != "" %}
+          <div class="post-image post-image-normal">
+            <a href="{{ post.url | absolute_url }}">
+              <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+            </a>
+          </div>
+          {% endif %}
 
           <a href="{{ post.url | absolute_url }}">
             <h2 class="post-title">{{ post.title | strip_html }}</h2>
@@ -57,14 +60,15 @@ title: Monica Ko
             Posted on {{ post.date | date: "%B %-d, %Y" }}
           </p>
 
-          {% if thumbnail != "" %}
-          <div class="post-image post-image-small">
+          {% if thumbnail != "" and site.feed_show_excerpt != false %}
+          <div class="post-image post-image-short">
             <a href="{{ post.url | absolute_url }}">
               <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
             </a>
           </div>
           {% endif %}
 
+          {% unless site.feed_show_excerpt == false %}
           <div class="post-entry">
             {% assign excerpt_length = site.excerpt_length | default: 50 %}
             {{ post.excerpt | strip_html | truncatewords: excerpt_length }}
@@ -73,6 +77,7 @@ title: Monica Ko
               <a href="{{ post.url | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>
             {% endif %}
           </div>
+          {% endunless %}
 
           {% if site.feed_show_tags != false and post.tags.size > 0 %}
           <div class="blog-tags">
@@ -86,16 +91,13 @@ title: Monica Ko
             </ul>
           </div>
           {% endif %}
-
         </article>
       </li>
       {% endfor %}
     </ul>
 
-    <!-- See all posts -->
     <p style="text-align: center; margin-top: 1rem;">
-      <a href="/blog/" style="color: black; font-weight: bold;">See all posts →</a>
+      <a href="/blog/" style="color: black;">See all posts →</a>
     </p>
-
   </div>
 </section>
