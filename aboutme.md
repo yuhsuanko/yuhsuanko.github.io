@@ -48,7 +48,7 @@ subtitle: Hi
   </div>
 
   <div style="display: flex; align-items: center;">
-    <img src="/assets/img/scsb1.jepg" alt="The Shanghai Commercial & Savings Bank Logo" style="width: 100px; margin-right: 30px;">
+    <img src="/assets/img/scsb1.jpeg" alt="The Shanghai Commercial & Savings Bank Logo" style="width: 100px; margin-right: 30px;">
     <div>
       <h3>The Shanghai Commercial & Savings Bank</h3>
       <p>March 2023 – June 2023<br>Data Scientist Intern, Head Office of Strategic Planning</p>
