@@ -14,7 +14,7 @@ While I know I still have a lot to work on, this process taught me more than I e
 
 ### Searching with a Cold Resume
 
-At first, I leaned heavily on cold applications. I submitted my resume to hundreds of job postings, completed over 10 virtual assessments, and interviewed with nearly 10 hiring managers. Eventually, I received two offers.
+At first, I leaned heavily on cold applications. I submitted my resume to hundreds of job postings, completed over 10 virtual assessments, and interviewed with nearly 10 hiring managers.
 
 Coming from Taiwan, I was used to a job market where strong credentials often speak for themselves. I thought I could do the same here: build a good resume, apply online, and let the results speak. But in the U.S., that wasn’t enough.
 
@@ -44,7 +44,7 @@ The turning point came when I stopped trying to give perfect answers and started
 
 I practiced sharing why I cared about the work, what I’d learned, and what kind of teammate I hoped to be. Suddenly, the stories that once felt "too ordinary" became my strengths.
 
-Eventually, I received two internship offers. But more than that, I found clarity about what I value in a team, how I want to grow, and how to turn rejection into resilience.
+Eventually, I found clarity about what I value in a team, how I want to grow, and how to turn rejection into resilience.
 
 ---
 
