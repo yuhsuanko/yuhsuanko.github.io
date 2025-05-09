@@ -10,7 +10,7 @@ author: Yu-Hsuan (Monica) Ko
 
 As summer approaches and I wrap up my third quarter of grad school, I wanted to take a moment to reflect on my U.S. internship search journey.
 
-While I know I still have a lot to work on, this process taught me more than I expected—about myself, the job market, and what it really means to grow through discomfort.
+While I recognize that I still have much to improve, this experience taught me more than I anticipated about myself, the job market, and the true value of growth through discomfort.
 
 ### Searching with a Cold Resume
 
