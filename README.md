@@ -8,7 +8,7 @@ Visit the site: [yuhsuanko.github.io](https://yuhsuanko.github.io)
 ## Features
 
 - Data science and AI project portfolio
-- Blog posts on machine learning, GenAI, and Personal Growth
+- Blog posts on machine learning, GenAI, and personal growth
 - Resume and contact information
 
 ## Theme Credits
