@@ -3,14 +3,13 @@
 This is my personal website built using Jekyll and GitHub Pages.  
 It features my portfolio, blog posts, resume, and academic or professional projects.
 
-Visit the site: [your-username.github.io](https://your-username.github.io)
+Visit the site: [yuhsuanko.github.io](https://yuhsuanko.github.io)
 
 ## Features
 
 - Data science and AI project portfolio
-- Blog posts on machine learning, fraud detection, and NLP
+- Blog posts on machine learning, GenAI, and Personal Growth
 - Resume and contact information
-- Clean, mobile-friendly layout
 
 ## Theme Credits
 
@@ -26,7 +25,6 @@ This site uses themes and design inspiration from:
 - Jekyll
 - GitHub Pages
 - Markdown / HTML / CSS
-- (Optional) ImageKit for fast image hosting
 
 ## Screenshot
 
