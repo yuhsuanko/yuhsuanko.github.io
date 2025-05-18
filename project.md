@@ -1,18 +1,24 @@
 ---
 layout: page
 title: Projects
-subtitle: data science projects (still editing)
+subtitle: Data Science Projects (still editing)
 ---
 
 ## Neural Network-Based Detection of AI-Generated Human Images
 **Feb 2025 – Mar 2025**  
-Developed AI-generated human image detection model using CNNs and pretrained DINOv2, achieving 70% accuracy for deepfake and fraud detection.
+Developed an AI-generated human image detection model using CNNs and pretrained DINOv2, achieving 70% accuracy for deepfake and fraud detection.
 
 ---
 
 ## Spotify Music Recommendation System
 **Feb 2025 – Mar 2025**  
 Built a personalized recommendation system using K-Means, XGBoost, and NLP (Word2Vec, TF-IDF), improving playlist engagement by 60%.
+
+---
+
+## Chicago Crime Analysis and Arrest Prediction  
+**Oct 2024 – Dec 2024**  
+Analyzed crime records from the City of Chicago to uncover spatial-temporal patterns and identify high-risk offense types. Built a logistic regression model to predict arrests with 80% precision and 81% AUC, highlighting narcotics and weapons violations as key predictors.
 
 ---
 
