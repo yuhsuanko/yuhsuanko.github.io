@@ -52,7 +52,7 @@ subtitle: Hi
   <h2>My Experience</h2>
 
   <div style="display: flex; align-items: center; margin-bottom: 30px;">
-    <img src="/assets/img/American-Bankers-Association.png" alt="American Bankers Association Logo" style="width: 100px; margin-right: 30px;">
+    <img src="/assets/img/AmericanBankersAsslogo.png" alt="American Bankers Association Logo" style="width: 100px; margin-right: 30px;">
     <div>
       <h3>American Bankers Association</h3>
       <p>June 2025 – August 2025<br>Fraud Analyst Intern</p>
