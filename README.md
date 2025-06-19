@@ -28,7 +28,7 @@ This site uses themes and design inspiration from:
 
 ## Screenshot
 
-<img src="https://ik.imagekit.io/monicako/Screenshot%202025-05-11%20at%201.41.52%E2%80%AFAM.png?updatedAt=1746945732051" width="800">
+<img src="https://ik.imagekit.io/monicako/Screenshot%202025-06-18%20at%209.19.58%E2%80%AFPM.png?updatedAt=1750296172046" width="800">
 
 ## License
 
