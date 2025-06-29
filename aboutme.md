@@ -1,13 +1,13 @@
 ---
 layout: page
 title: About me
-subtitle: Hi
+subtitle: Tech-savvy, risk-aware, and business-driven
 ---
 
 <section>
   <h2>My Story</h2>
   <p>
-    I’m a data scientist with a focus on fighting financial crime through machine learning and data-driven insights. From developing AML models that detect suspicious patterns to building RPA pipelines that save hundreds of hours, I’ve worked at the intersection of compliance, AI, and business impact. <br><br>
+    I’m a data scientist with a focus on fighting financial crime through machine learning, cutting-edge technology, and data-driven insights. From developing AML models that detect suspicious patterns to building RPA pipelines that save hundreds of hours, I’ve worked at the intersection of compliance, AI, and business impact. <br><br>
     With roots in Taiwan and new beginnings in Chicago, I bring a global perspective and relentless curiosity to every challenge I face. To me, data isn’t just numbers; it’s a tool for protecting trust and creating smarter systems.
   </p>
 </section>
