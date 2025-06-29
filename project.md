@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-subtitle: Data Science Projects (still editing)
+subtitle: Data Science Projects
 ---
 
 <p style="max-width: 720px; margin: 1.5rem auto; text-align: center; font-size: 1.1rem; color: #444;">
@@ -66,7 +66,7 @@ subtitle: Data Science Projects (still editing)
   <h2 id="genai">Generative AI & Large Language Models</h2>
 
   <div class="project-card">
-    <h3>AI Integration in the Workforce</h3>
+    <h3>Multi-Industry AI Trend Analysis</h3>
     <p><em>Apr 2025 – May 2025</em></p>
     <ul>
       <li>Analyzed 200K+ AI-related articles using BERTopic, GPT-4 labeling, BERT sentiment classification, and NER.</li>
@@ -76,10 +76,10 @@ subtitle: Data Science Projects (still editing)
   </div>
 
   <div class="project-card">
-    <h3>Adaptive Reasoning Language Agents for Healthcare</h3>
+    <h3>AI Agents for Healthcare Research</h3>
     <p><em>Mar 2025 – Apr 2025</em></p>
     <ul>
-      <li>Designed a generative agent system for medical diagnosis refinement and patient communication.</li>
+      <li>Designed a generative agent system for coming up ideas for healthcare research.</li>
       <li>Implemented CrewAI’s Planner–Analyst–Critic multi-agent architecture with in-context learning.</li>
     </ul>
     <p><strong>Key Skills:</strong> LLMs, CrewAI, Adaptive Reasoning, Conversational AI, Prompt Design</p>
