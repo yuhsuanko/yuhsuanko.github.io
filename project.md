@@ -4,7 +4,37 @@ title: Projects
 subtitle: Data Science Projects (still editing)
 ---
 
+<p style="max-width: 720px; margin: 1.5rem auto; text-align: center; font-size: 1.1rem; color: #444;">
+  A collection of machine learning and AI projects in generative models, computer vision, fraud detection, and applied analytics, all focused on solving real-world problems and industry applications.
+</p>
+
+<!-- Top Navigation Buttons -->
+<div id="project-nav" style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 2rem; margin-bottom: 2rem; flex-wrap: wrap;">
+  <a href="#genai" class="project-anchor-btn">Generative AI</a>
+  <a href="#vision" class="project-anchor-btn">Computer Vision</a>
+  <a href="#risk" class="project-anchor-btn">Risk & Analytics</a>
+</div>
+
+<!-- Styles -->
 <style>
+  html { scroll-behavior: smooth; }
+
+  .project-anchor-btn {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f8f8f8;
+    transition: all 0.2s ease;
+  }
+  .project-anchor-btn:hover {
+    background-color: #333;
+    color: white;
+    border-color: #333;
+  }
+
   .project-group { margin-top: 3rem; }
   .project-card {
     border: 1px solid #ddd;
@@ -31,8 +61,9 @@ subtitle: Data Science Projects (still editing)
   }
 </style>
 
+<!-- Section: Generative AI -->
 <div class="project-group">
-  <h2>Generative AI & Large Language Models</h2>
+  <h2 id="genai">Generative AI & Large Language Models</h2>
 
   <div class="project-card">
     <h3>AI Integration in the Workforce</h3>
@@ -65,8 +96,9 @@ subtitle: Data Science Projects (still editing)
   </div>
 </div>
 
+<!-- Section: Computer Vision -->
 <div class="project-group">
-  <h2>Computer Vision & Image Modeling</h2>
+  <h2 id="vision">Computer Vision & Image Modeling</h2>
 
   <div class="project-card">
     <h3>Face-to-BMI Prediction System</h3>
@@ -88,8 +120,9 @@ subtitle: Data Science Projects (still editing)
   </div>
 </div>
 
+<!-- Section: Risk & Analytics -->
 <div class="project-group">
-  <h2>Predictive Modeling & Risk Analytics</h2>
+  <h2 id="risk">Predictive Modeling & Risk Analytics</h2>
 
   <div class="project-card">
     <h3>Credit Card Fraud Detection</h3>
