@@ -20,11 +20,11 @@ author: Yu-Hsuan (Monica) Ko
 ###############################################
 
 navbar-links:
+  Home: "index"
   About Me: "aboutme"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
-  Home: "index"
   Blogs: "blog"
   Projects: "project"
   Resume: "resume"

@@ -4,63 +4,99 @@ title: Projects
 subtitle: Data Science Projects (still editing)
 ---
 
-## Generative AI & Large Language Models
+<h2 style="margin-top: 2rem;">Generative AI & Large Language Models</h2>
+<hr>
 
-### **AI Integration in the Workforce: Multi-Industry Trend & Sentiment Analysis**  
-**Apr 2025 – May 2025**  
-- Built an end-to-end NLP system analyzing 200K+ AI-related articles using BERTopic, GPT-4 labeling, BERT sentiment classification, and entity recognition. 
-- Performed industry-level trend analysis and job automation risk assessment, achieving 71% model accuracy and informing future workforce and policy decisions.  
-**Key Skills:** NLP, BERTopic, BERT, GPT-4, Zero-shot, Sentiment Analysis, Named Entity Recognition, Data Visualization
+<section style="margin-bottom: 2rem;">
+  <h3>AI Integration in the Workforce: Multi-Industry Trend & Sentiment Analysis</h3>
+  <p><em>Apr 2025 – May 2025</em></p>
+  <ul>
+    <li>Built an end-to-end NLP system analyzing 200K+ AI-related articles using BERTopic, GPT-4 labeling, BERT sentiment classification, and entity recognition.</li>
+    <li>Performed industry-level trend analysis and job automation risk assessment, achieving 71% model accuracy and informing workforce policy.</li>
+  </ul>
+  <p><strong>Key Skills:</strong> NLP, BERTopic, BERT, GPT-4, Zero-shot, Sentiment Analysis, Named Entity Recognition, Data Visualization</p>
+</section>
 
-### **Adaptive Reasoning Language Agents for Healthcare**  
-**Mar 2025 – Apr 2025**  
-- Designed a generative AI system that combines adaptive reasoning with conversational agents to support diagnostic refinement and patient engagement. 
-- Developed a modular architecture using CrewAI’s multi-agent workflow (Planner–Analyst–Critic) for idea generation, literature synthesis, and feasibility evaluation.  
-**Key Skills:** LLMs, In-Context Learning, Conversational AI, CrewAI, Research Design, Ethical AI
+<section style="margin-bottom: 2rem;">
+  <h3>Adaptive Reasoning Language Agents for Healthcare</h3>
+  <p><em>Mar 2025 – Apr 2025</em></p>
+  <ul>
+    <li>Designed a generative AI system combining adaptive reasoning with conversational agents for diagnosis refinement and patient engagement.</li>
+    <li>Developed a modular architecture using CrewAI’s multi-agent workflow (Planner–Analyst–Critic) for idea generation, literature synthesis, and feasibility evaluation.</li>
+  </ul>
+  <p><strong>Key Skills:</strong> LLMs, In-Context Learning, Conversational AI, CrewAI, Research Design, Ethical AI</p>
+</section>
 
-### **Instruction-Tuned Generative AI for Transaction Fraud Detection**  
-**Feb 2025 – Mar 2025**  
-- Explored generative AI techniques for fraud detection by combining structured fraud datasets with instruction-tuning narratives. Integrated Ollama with sklearn-based evaluation to investigate how LLM agents could support or explain classification outcomes. 
-- Leveraged detailed instruction-tuned prompts aligned with fraud labels to simulate model alignment and decision storytelling.  
-**Key Skills:** LLMs, Instruction Tuning, Fraud Detection, Ollama, Narrative Generation
+<section style="margin-bottom: 2rem;">
+  <h3>Instruction-Tuned Generative AI for Transaction Fraud Detection</h3>
+  <p><em>Feb 2025 – Mar 2025</em></p>
+  <ul>
+    <li>Explored generative AI techniques for fraud detection by combining structured fraud datasets with instruction-tuning narratives.</li>
+    <li>Integrated Ollama with sklearn to evaluate how LLM agents could support classification decisions through narrative explanations.</li>
+  </ul>
+  <p><strong>Key Skills:</strong> LLMs, Instruction Tuning, Fraud Detection, Ollama, Narrative Generation</p>
+</section>
 
+<h2 style="margin-top: 2.5rem;">Computer Vision & Image Modeling</h2>
+<hr>
 
----
+<section style="margin-bottom: 2rem;">
+  <h3>Face-to-BMI Prediction System</h3>
+  <p><em>Apr 2025 – May 2025</em></p>
+  <ul>
+    <li>Built a BMI prediction system from facial images using VGG-Face, ResNet50, and ViT, achieving 0.68 Pearson correlation.</li>
+    <li>Led model comparison, feature integration (e.g., gender), and ensemble strategies for regression accuracy.</li>
+  </ul>
+  <p><strong>Key Skills:</strong> Computer Vision, CNNs, VGG-Face, ResNet50, ViT, Regression, Ensemble Modeling</p>
+</section>
 
-## Computer Vision & Image Modeling
+<section style="margin-bottom: 2rem;">
+  <h3>Neural Network-Based Detection of AI-Generated Human Images</h3>
+  <p><em>Feb 2025 – Mar 2025</em></p>
+  <ul>
+    <li>Developed an AI-generated human image detection model using CNNs and pretrained DINOv2, achieving 70% accuracy for deepfake and fraud detection.</li>
+  </ul>
+  <p><strong>Key Skills:</strong> Deepfake Detection, CNNs, DINOv2, Transfer Learning, Binary Classification, Fraud Analytics</p>
+</section>
 
-### **Face-to-BMI Prediction System**  
-**Apr 2025 – May 2025**  
-- Built a BMI prediction system from facial images using VGG-Face, ResNet50, and Vision Transformer (ViT), achieving up to 0.68 Pearson correlation. Led model comparison, feature integration (e.g., gender), and ensemble strategies for regression accuracy.  
-**Key Skills:** Computer Vision, CNNs, VGG-Face, ResNet50, ViT, Regression, Ensemble Modeling
+<h2 style="margin-top: 2.5rem;">Predictive Modeling & Risk Analytics</h2>
+<hr>
 
-### **Neural Network-Based Detection of AI-Generated Human Images**  
-**Feb 2025 – Mar 2025**  
-- Developed an AI-generated human image detection model using CNNs and pretrained DINOv2, achieving 70% accuracy for deepfake and fraud detection.  
-**Key Skills:** Deepfake Detection, CNNs, DINOv2, Transfer Learning, Binary Classification, Fraud Analytics
+<section style="margin-bottom: 2rem;">
+  <h3>Credit Card Fraud Detection via Behavioral Modeling</h3>
+  <p><em>May 2025 – Jun 2025</em></p>
+  <ul>
+    <li>Built a fraud detection pipeline across 780K+ transactions using features like CVV mismatch, card-not-present, and 24-hour velocity.</li>
+    <li>Trained ensemble models (LightGBM + SMOTE) and tuned thresholds for recall; achieved 0.54 recall and 0.73 ROC AUC.</li>
+  </ul>
+  <p><strong>Key Skills:</strong> LightGBM, SMOTE, Precision-Recall Optimization, Fraud Analytics, Behavioral Modeling, Imbalanced Classification</p>
+</section>
 
----
+<section style="margin-bottom: 2rem;">
+  <h3>Spotify Music Recommendation System</h3>
+  <p><em>Feb 2025 – Mar 2025</em></p>
+  <ul>
+    <li>Built a personalized recommendation system using K-Means, XGBoost, Word2Vec, and TF-IDF, improving playlist engagement by 60%.</li>
+  </ul>
+  <p><strong>Key Skills:</strong> Recommender Systems, Clustering, XGBoost, NLP, Word2Vec, TF-IDF, User Behavior Analysis</p>
+</section>
 
-## Predictive Modeling & Risk Analytics
+<section style="margin-bottom: 2rem;">
+  <h3>Chicago Crime Analysis and Arrest Prediction</h3>
+  <p><em>Oct 2024 – Dec 2024</em></p>
+  <ul>
+    <li>Analyzed City of Chicago crime data to identify high-risk offense types using spatial-temporal trends.</li>
+    <li>Built a logistic regression model to predict arrests with 80% precision and 81% AUC.</li>
+  </ul>
+  <p><strong>Key Skills:</strong> Logistic Regression, AUC, Crime Analytics, Feature Engineering, Spatial-Temporal Modeling</p>
+</section>
 
-### **Credit Card Fraud Detection via Behavioral Modeling**  
-**May 2025 – Jun 2025**  
-- Built a machine learning pipeline to detect credit card fraud across 780K+ transactions by engineering behavioral and temporal features, including CVV mismatch, time since last transaction, and 24-hour transaction velocity. 
-- Trained ensemble models using SMOTE and precision-recall threshold tuning. Final LightGBM model achieved 0.54 recall and 0.73 ROC AUC. Also identified multi-swipe and reversal patterns for behavioral fraud insights.  
-**Key Skills:** LightGBM, SMOTE, Precision-Recall Optimization, Feature Engineering, Fraud Analytics, Behavioral Modeling, Imbalanced Classification
-
-### **Spotify Music Recommendation System**  
-**Feb 2025 – Mar 2025**  
-- Built a personalized recommendation system using K-Means, XGBoost, and NLP (Word2Vec, TF-IDF), improving playlist engagement by 60%.  
-**Key Skills:** Recommender Systems, Clustering, XGBoost, NLP, Word2Vec, TF-IDF, User Behavior Analysis
-
-### **Chicago Crime Analysis and Arrest Prediction**  
-**Oct 2024 – Dec 2024**  
-- Analyzed crime records from the City of Chicago to uncover spatial-temporal patterns and identify high-risk offense types. 
-- Built a logistic regression model to predict arrests with 80% precision and 81% AUC, highlighting narcotics and weapons violations as key predictors.  
-**Key Skills:** Logistic Regression, AUC, Crime Analytics, Feature Engineering, Spatial-Temporal Modeling
-
-### **Transaction Monitoring Model for AML**  
-**Jul 2023 – Sep 2024**  
-- Designed machine learning models (Isolation Forest, LightGBM) for third-party payment fraud detection at E.SUN Bank, cutting false positives by 30%.  
-**Key Skills:** AML, Fraud Detection, Isolation Forest, LightGBM, Risk Modeling, Financial Compliance
+<section style="margin-bottom: 2rem;">
+  <h3>Transaction Monitoring Model for AML</h3>
+  <p><em>Jul 2023 – Sep 2024</em></p>
+  <ul>
+    <li>Designed ML models using Isolation Forest and LightGBM for detecting suspicious third-party transactions at E.SUN Bank.</li>
+    <li>Reduced false positives by 30% while maintaining sensitivity to money laundering patterns.</li>
+  </ul>
+  <p><strong>Key Skills:</strong> AML, Fraud Detection, Isolation Forest, LightGBM, Risk Modeling, Financial Compliance</p>
+</section>
