@@ -5,14 +5,16 @@ subtitle: Data Science Projects
 ---
 
 <p style="max-width: 720px; margin: 1.5rem auto; text-align: center; font-size: 1.1rem; color: #444;">
-  A collection of machine learning and AI projects in generative models, computer vision, fraud detection, and applied analytics, all focused on solving real-world problems and industry applications.
+  I specialize in analyzing and leveraging data from diverse sources and formats, including structured tables, unstructured text, images, and real-time streams, to extract insights and solve real-world problems.<br><br>
+  Here is a collection of machine learning and AI projects that encompass large language models, computer vision, machine learning, fraud detection, and applied analytics. Each project is designed with practical impact and relevance to industry needs in mind.
 </p>
+
 
 <!-- Top Navigation Buttons -->
 <div id="project-nav" style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 2rem; margin-bottom: 2rem; flex-wrap: wrap;">
   <a href="#genai" class="project-anchor-btn">Generative AI</a>
   <a href="#vision" class="project-anchor-btn">Computer Vision</a>
-  <a href="#risk" class="project-anchor-btn">Risk & Analytics</a>
+  <a href="#risk" class="project-anchor-btn">Machine Learning & Analytics</a>
 </div>
 
 <!-- Styles -->
@@ -92,7 +94,7 @@ subtitle: Data Science Projects
       <li>Explored narrative alignment of LLMs using instruction-tuned fraud prompts and Ollama evaluation.</li>
       <li>Simulated model explainability for fraud predictions through prompt-engineered storytelling.</li>
     </ul>
-    <p><strong>Key Skills:</strong> LLMs, Instruction Tuning, Fraud Analytics, Narrative Generation</p>
+    <p><strong>Key Skills:</strong> LLMs, Ollama, Instruction Tuning, Fraud Analytics, Narrative Generation</p>
   </div>
 </div>
 
@@ -158,6 +160,6 @@ subtitle: Data Science Projects
     <ul>
       <li>Deployed Isolation Forest and LightGBM to detect third-party payment fraud, cutting false positives by 30%.</li>
     </ul>
-    <p><strong>Key Skills:</strong> AML, Isolation Forest, Risk Modeling, Financial Compliance</p>
+    <p><strong>Key Skills:</strong> AML, LightGBM, Isolation Forest, Risk Modeling, Financial Compliance</p>
   </div>
 </div>
