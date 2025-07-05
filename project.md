@@ -67,7 +67,6 @@ subtitle: Data Science Projects
     color: #444;
   }
 
-  /* New: GitHub Link Box */
   .github-link-box {
     margin-top: 1.2rem;
     padding: 10px 16px;
@@ -96,6 +95,13 @@ subtitle: Data Science Projects
     font-size: 1.1rem;
     color: #333;
   }
+
+  .project-image {
+  display: block;
+  max-width: 240px;
+  margin: 0 auto 1.2rem auto;
+  border-radius: 6px;
+  }
 </style>
 
 
@@ -111,10 +117,17 @@ subtitle: Data Science Projects
       <li>Performed industry trend analysis and automation risk assessment (71% accuracy).</li>
     </ul>
     <p><strong>Key Skills:</strong> NLP, GPT-4, BERT, BERTopic, Sentiment Analysis, NER, Visualization</p>
+
+    <div class="github-link-box">
+      <a href="https://github.com/yuhsuanko/Multi-Industry_AI_Trend_Analysis" target="_blank">
+        <i class="fab fa-github"></i> View on GitHub <span class="arrow">→</span>
+      </a>
+    </div>
+
   </div>
 
   <div class="project-card">
-    <img src="/assets/img/crewai.png" alt="CrewAI" style="width: 100%; border-radius: 6px; margin-bottom: 1rem;">
+    <img src="/assets/img/crewai.png" alt="CrewAI Logo" class="project-image">
     <h3>AI Agents for Healthcare Research</h3>
     <p><em>Mar 2025 – Apr 2025</em></p>
     <ul>
@@ -139,6 +152,13 @@ subtitle: Data Science Projects
       <li>Simulated model explainability for fraud predictions through prompt-engineered storytelling.</li>
     </ul>
     <p><strong>Key Skills:</strong> LLMs, Ollama, Instruction Tuning, Fraud Analytics, Narrative Generation</p>
+
+    <div class="github-link-box">
+      <a href="https://github.com/yuhsuanko/Instruction-Tuned-LLMs-for-Fraud-Detection" target="_blank">
+        <i class="fab fa-github"></i> View on GitHub <span class="arrow">→</span>
+      </a>
+    </div>
+
   </div>
 </div>
 
@@ -154,6 +174,13 @@ subtitle: Data Science Projects
       <li>Used VGG-Face, ResNet50, ViT; experimented with ensemble and gender as features.</li>
     </ul>
     <p><strong>Key Skills:</strong> CNN, ViT, Regression, Facial Features, Ensemble Modeling</p>
+
+    <div class="github-link-box">
+      <a href="https://github.com/yuhsuanko/FaceToBMI-CNN" target="_blank">
+        <i class="fab fa-github"></i> View on GitHub <span class="arrow">→</span>
+      </a>
+    </div>
+
   </div>
 
   <div class="project-card">
@@ -163,12 +190,19 @@ subtitle: Data Science Projects
       <li>Used DINOv2 and CNNs to distinguish synthetic faces from real ones (70% accuracy).</li>
     </ul>
     <p><strong>Key Skills:</strong> Deepfake Detection, CNNs, DINOv2, Binary Classification</p>
+
+    <div class="github-link-box">
+      <a href="https://github.com/yuhsuanko/RealOrAI-FaceClassifier" target="_blank">
+        <i class="fab fa-github"></i> View on GitHub <span class="arrow">→</span>
+      </a>
+    </div>
+
   </div>
 </div>
 
 <!-- Section: Risk & Analytics -->
 <div class="project-group">
-  <h2 id="risk">Predictive Modeling & Risk Analytics</h2>
+  <h2 id="risk">Machine Learning Modeling & Analytics</h2>
 
   <div class="project-card">
     <h3>Credit Card Fraud Detection</h3>
@@ -178,6 +212,13 @@ subtitle: Data Science Projects
       <li>Trained LightGBM with SMOTE, achieving 0.54 recall and 0.73 ROC AUC.</li>
     </ul>
     <p><strong>Key Skills:</strong> LightGBM, SMOTE, Fraud Features, Class Imbalance, Evaluation Metrics</p>
+
+    <div class="github-link-box">
+      <a href="https://github.com/yuhsuanko/Credit-Card-Fraud-Detection" target="_blank">
+        <i class="fab fa-github"></i> View on GitHub <span class="arrow">→</span>
+      </a>
+    </div>
+
   </div>
 
   <div class="project-card">
@@ -187,6 +228,13 @@ subtitle: Data Science Projects
       <li>Used K-Means + XGBoost + NLP (TF-IDF, Word2Vec) to personalize playlist suggestions.</li>
     </ul>
     <p><strong>Key Skills:</strong> Recommender Systems, Clustering, XGBoost, Word2Vec, TF-IDF</p>
+
+    <div class="github-link-box">
+      <a href="https://github.com/yuhsuanko/Spotify-Music-Recommendation-System" target="_blank">
+        <i class="fab fa-github"></i> View on GitHub <span class="arrow">→</span>
+      </a>
+    </div>
+
   </div>
 
   <div class="project-card">
@@ -196,6 +244,13 @@ subtitle: Data Science Projects
       <li>Analyzed city crime trends and built logistic regression to predict arrests (81% AUC).</li>
     </ul>
     <p><strong>Key Skills:</strong> Logistic Regression, AUC, Spatial-Temporal Modeling</p>
+
+    <div class="github-link-box">
+      <a href="https://github.com/yuhsuanko/Chicago-Crime-Analysis-and-Arrest-Prediction" target="_blank">
+        <i class="fab fa-github"></i> View on GitHub <span class="arrow">→</span>
+      </a>
+    </div>
+
   </div>
 
   <div class="project-card">
