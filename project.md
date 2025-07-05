@@ -38,6 +38,7 @@ subtitle: Data Science Projects
   }
 
   .project-group { margin-top: 3rem; }
+
   .project-card {
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -46,22 +47,57 @@ subtitle: Data Science Projects
     box-shadow: 0 1px 4px rgba(0,0,0,0.06);
     background: #fff;
   }
+
   .project-card h3 {
     margin-top: 0;
     margin-bottom: 0.3rem;
   }
+
   .project-card em {
     color: #666;
     font-size: 0.95rem;
   }
+
   .project-card ul {
     margin: 0.5rem 0 0.8rem 1rem;
   }
+
   .project-card p {
     margin: 0;
     color: #444;
   }
+
+  /* New: GitHub Link Box */
+  .github-link-box {
+    margin-top: 1.2rem;
+    padding: 10px 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+  }
+
+  .github-link-box a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+  }
+
+  .github-link-box:hover {
+    background-color: #f0f0f0;
+  }
+
+  .github-link-box .arrow {
+    font-size: 1.1rem;
+    color: #333;
+  }
 </style>
+
 
 <!-- Section: Generative AI -->
 <div class="project-group">
@@ -78,7 +114,7 @@ subtitle: Data Science Projects
   </div>
 
   <div class="project-card">
-    <img src="assets/img/crewai.png" alt="CrewAI" style="width: 100%; border-radius: 6px; margin-bottom: 1rem;">
+    <img src="/assets/img/crewai.png" alt="CrewAI" style="width: 100%; border-radius: 6px; margin-bottom: 1rem;">
     <h3>AI Agents for Healthcare Research</h3>
     <p><em>Mar 2025 – Apr 2025</em></p>
     <ul>
@@ -86,12 +122,14 @@ subtitle: Data Science Projects
       <li>Implemented CrewAI’s Planner–Analyst–Critic multi-agent architecture with in-context learning.</li>
     </ul>
     <p><strong>Key Skills:</strong> LLMs, CrewAI, Adaptive Reasoning, Conversational AI, Prompt Design</p>
-    <p>
-      <a href="https://github.com/yuhsuanko/AI-Agents_Generate-Healthcare-Research" target="_blank" style="color: #007acc; text-decoration: none; font-weight: bold;">
-        <i class="fab fa-github" style="margin-right: 6px;"></i>View on GitHub
+
+    <div class="github-link-box">
+      <a href="https://github.com/yuhsuanko/AI-Agents_Generate-Healthcare-Research" target="_blank">
+        <i class="fab fa-github"></i> View on GitHub <span class="arrow">→</span>
       </a>
-    </p>
+    </div>
   </div>
+
 
   <div class="project-card">
     <h3>Instruction-Tuned LLMs for Fraud Detection</h3>
