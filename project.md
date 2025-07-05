@@ -78,6 +78,7 @@ subtitle: Data Science Projects
   </div>
 
   <div class="project-card">
+    <img src="assets/img/crewai.png" alt="CrewAI" style="width: 100%; border-radius: 6px; margin-bottom: 1rem;">
     <h3>AI Agents for Healthcare Research</h3>
     <p><em>Mar 2025 – Apr 2025</em></p>
     <ul>
@@ -85,6 +86,11 @@ subtitle: Data Science Projects
       <li>Implemented CrewAI’s Planner–Analyst–Critic multi-agent architecture with in-context learning.</li>
     </ul>
     <p><strong>Key Skills:</strong> LLMs, CrewAI, Adaptive Reasoning, Conversational AI, Prompt Design</p>
+    <p>
+      <a href="https://github.com/yuhsuanko/AI-Agents_Generate-Healthcare-Research" target="_blank" style="color: #007acc; text-decoration: none; font-weight: bold;">
+        <i class="fab fa-github" style="margin-right: 6px;"></i>View on GitHub
+      </a>
+    </p>
   </div>
 
   <div class="project-card">
