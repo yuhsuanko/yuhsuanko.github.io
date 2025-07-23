@@ -102,6 +102,59 @@ subtitle: Data Science Projects
   margin: 0 auto 1.2rem auto;
   border-radius: 6px;
   }
+
+  .project-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto 40px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+
+  .project-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .project-image {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  .project-text {
+    flex: 1;
+  }
+
+  .github-link-box a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0366d6;
+    font-weight: bold;
+  }
+
+  .github-link-box a:hover {
+    text-decoration: underline;
+  }
+
+  /* --- Responsive --- */
+  @media screen and (max-width: 768px) {
+    .project-content {
+      flex-direction: column;
+    }
+
+    .project-image {
+      width: 100%;
+    }
+  }
+
 </style>
 
 
@@ -110,21 +163,26 @@ subtitle: Data Science Projects
   <h2 id="genai">Generative AI & Large Language Models</h2>
 
   <div class="project-card">
-    <h3>Multi-Industry AI Trend Analysis</h3>
-    <p><em>Apr 2025 – May 2025</em></p>
-    <ul>
-      <li>Analyzed 200K+ AI-related articles using BERTopic, GPT-4 labeling, BERT sentiment classification, and NER.</li>
-      <li>Performed industry trend analysis and automation risk assessment (71% accuracy).</li>
-    </ul>
-    <p><strong>Key Skills:</strong> NLP, GPT-4, BERT, BERTopic, Sentiment Analysis, NER, Visualization</p>
-
-    <div class="github-link-box">
-      <a href="https://github.com/yuhsuanko/Multi-Industry_AI_Trend_Analysis" target="_blank">
-        <i class="fab fa-github"></i> View on GitHub <span class="arrow">→</span>
-      </a>
+    <div class="project-content">
+      <img src="/assets/img/images/ai-analytics.png" alt="AI Analytics Illustration" class="project-image" />
+      
+      <div class="project-text">
+        <h3>Multi-Industry AI Trend Analysis</h3>
+        <p><em>Apr 2025 – May 2025</em></p>
+        <ul>
+          <li>Analyzed 200K+ AI-related articles using BERTopic, GPT-4 labeling, BERT sentiment classification, and NER.</li>
+          <li>Performed industry trend analysis and automation risk assessment (71% accuracy).</li>
+        </ul>
+        <p><strong>Key Skills:</strong> NLP, GPT-4, BERT, BERTopic, Sentiment Analysis, NER, Visualization</p>
+        <div class="github-link-box">
+          <a href="https://github.com/yuhsuanko/Multi-Industry_AI_Trend_Analysis" target="_blank">
+            <i class="fab fa-github"></i> View on GitHub <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
     </div>
-
   </div>
+
 
   <div class="project-card">
     <img src="/assets/img/crewai.png" alt="CrewAI Logo" class="project-image">
