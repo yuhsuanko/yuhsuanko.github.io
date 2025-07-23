@@ -164,7 +164,7 @@ subtitle: Data Science Projects
 
   <div class="project-card">
     <div class="project-content">
-      <img src="/assets/img/images/ai-analytics.png" alt="AI Analytics Illustration" class="project-image" />
+      <img src="/assets/img/ai-analytics.png" alt="AI Analytics Illustration" class="project-image" />
       
       <div class="project-text">
         <h3>Multi-Industry AI Trend Analysis</h3>
