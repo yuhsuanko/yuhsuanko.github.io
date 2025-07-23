@@ -132,14 +132,6 @@ subtitle: Data Science Projects
     flex: 1;
   }
 
-  .github-link-box a {
-    display: inline-block;
-    margin-top: 10px;
-    text-decoration: none;
-    color: #0366d6;
-    font-weight: bold;
-  }
-
   .github-link-box a:hover {
     text-decoration: underline;
   }
@@ -164,7 +156,7 @@ subtitle: Data Science Projects
 
   <div class="project-card">
     <div class="project-content">
-      <img src="/assets/img/ai-analytics.png" alt="AI Analytics Illustration" class="project-image" />
+      <img src="/assets/img/ai_analytics.png" alt="AI Analytics" class="project-image">
       
       <div class="project-text">
         <h3>Multi-Industry AI Trend Analysis</h3>
