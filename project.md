@@ -103,49 +103,48 @@ subtitle: Data Science Projects
   border-radius: 6px;
   }
 
-  .project-card {
-    border: 1px solid #e0e0e0;
-    border-radius: 12px;
-    padding: 20px;
-    max-width: 900px;
-    margin: 0 auto 40px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  }
+.project-card {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  overflow: hidden;
+  padding: 24px;
+}
 
+.project-content {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.project-image-box {
+  flex: 0 0 260px;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.project-info {
+  flex: 1;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
   .project-content {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items: flex-start;
+    flex-direction: column;
   }
 
-  .project-image {
-    width: 250px;
-    height: auto;
-    border-radius: 10px;
-    object-fit: cover;
-    flex-shrink: 0;
+  .project-image-box {
+    width: 100%;
   }
-
-  .project-text {
-    flex: 1;
-  }
-
-  .github-link-box a:hover {
-    text-decoration: underline;
-  }
-
-  /* --- Responsive --- */
-  @media screen and (max-width: 768px) {
-    .project-content {
-      flex-direction: column;
-    }
-
-    .project-image {
-      width: 100%;
-    }
-  }
+}
 
 </style>
 
@@ -155,24 +154,22 @@ subtitle: Data Science Projects
   <h2 id="genai">Generative AI & Large Language Models</h2>
 
   <div class="project-card">
-    <div class="project-content">
-      <img src="/assets/img/ai_analytics.png" alt="AI Analytics" class="project-image">
-      
-      <div class="project-text">
-        <h3>Multi-Industry AI Trend Analysis</h3>
-        <p><em>Apr 2025 – May 2025</em></p>
-        <ul>
-          <li>Analyzed 200K+ AI-related articles using BERTopic, GPT-4 labeling, BERT sentiment classification, and NER.</li>
-          <li>Performed industry trend analysis and automation risk assessment (71% accuracy).</li>
-        </ul>
-        <p><strong>Key Skills:</strong> NLP, GPT-4, BERT, BERTopic, Sentiment Analysis, NER, Visualization</p>
-        <div class="github-link-box">
-          <a href="https://github.com/yuhsuanko/Multi-Industry_AI_Trend_Analysis" target="_blank">
-            <i class="fab fa-github"></i> View on GitHub <span class="arrow">→</span>
-          </a>
-        </div>
-      </div>
+    <img src="/assets/img/ai-analytics.png" alt="AI Trend Analysis" class="project-image">
+    <h3>Multi-Industry AI Trend Analysis</h3>
+    <p><em>Apr 2025 – May 2025</em></p>
+    <ul>
+      <li>Analyzed 200K+ AI-related articles using GPT-4, BERTopic, BERT sentiment models, and NER.</li>
+      <li>Identified industry trends and automation risks, achieving 71% accuracy in risk prediction.</li>
+    </ul>
+    <p><strong>Key Skills:</strong> GPT-4, BERTopic, BERT, Sentiment Analysis, NER, Visualization</p>
+
+    <div class="github-link-box">
+      <a href="https://github.com/yuhsuanko/Multi-Industry_AI_Trend_Analysis" target="_blank">
+        <i class="fab fa-github"></i> View on GitHub <span class="arrow">→</span>
+      </a>
     </div>
+  </div>
+
   </div>
 
 
