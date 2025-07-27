@@ -2,8 +2,8 @@
 layout: post
 title: A Year of Growth: My Journey Studying in the U.S.
 subtitle: Reflections on Growth, Learning, and Cultural Adaptation
-cover-img: /assets/img/IMG_2359.png
-share-img: /assets/img/IMG_2359.png
+cover-img: /assets/img/IMG_2359.jpeg
+share-img: /assets/img/IMG_2359.jpeg
 tags: [reflection]
 author: Yu-Hsuan (Monica) Ko
 ---
