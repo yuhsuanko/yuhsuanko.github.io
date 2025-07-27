@@ -213,11 +213,12 @@ subtitle: Data Science Projects
   <h2 id="vision">Computer Vision & Image Modeling</h2>
 
   <div class="project-card">
+    <img src="/assets/img/bmi_detection.png" alt="BMI Detection" class="project-image">
     <h3>Face-to-BMI Prediction System</h3>
     <p><em>Apr 2025 – May 2025</em></p>
     <ul>
       <li>Trained CNN and ViT models on facial images for BMI regression (Pearson r = 0.68).</li>
-      <li>Used VGG-Face, ResNet50, ViT; experimented with ensemble and gender as features.</li>
+      <li>Used VGG-Face, ResNet50, Vision Transformer (ViT); experimented with ensemble and gender as features.</li>
     </ul>
     <p><strong>Key Skills:</strong> CNN, ViT, Regression, Facial Features, Ensemble Modeling</p>
 
@@ -230,6 +231,7 @@ subtitle: Data Science Projects
   </div>
 
   <div class="project-card">
+    <img src="/assets/img/ai_face_detection.png" alt="AI Face Detection" class="project-image">
     <h3>Detection of AI-Generated Human Images</h3>
     <p><em>Feb 2025 – Mar 2025</em></p>
     <ul>
@@ -251,6 +253,7 @@ subtitle: Data Science Projects
   <h2 id="risk">Machine Learning Modeling & Analytics</h2>
 
   <div class="project-card">
+    <img src="/assets/img/credit_card_fraud.png" alt="Credit Card Fraud Detection" class="project-image">
     <h3>Credit Card Fraud Detection</h3>
     <p><em>May 2025 – Jun 2025</em></p>
     <ul>
@@ -268,6 +271,7 @@ subtitle: Data Science Projects
   </div>
 
   <div class="project-card">
+    <img src="/assets/img/spotify_recommend.png" alt="Spotify Recommendation" class="project-image">
     <h3>Spotify Music Recommendation System</h3>
     <p><em>Feb 2025 – Mar 2025</em></p>
     <ul>
@@ -284,6 +288,7 @@ subtitle: Data Science Projects
   </div>
 
   <div class="project-card">
+    <img src="/assets/img/chicago_crime.png" alt="Chicago Crime" class="project-image">
     <h3>Chicago Crime Prediction</h3>
     <p><em>Oct 2024 – Dec 2024</em></p>
     <ul>
