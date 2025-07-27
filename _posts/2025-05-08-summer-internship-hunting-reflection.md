@@ -4,7 +4,7 @@ title: Lessons from My U.S. Internship Search – Growth Beyond the Resume
 subtitle: How I learned to navigate uncertainty, show up with authenticity, and grow through rejection
 cover-img: /assets/img/IMG_8481.jpeg
 share-img: /assets/img/IMG_8481.jpeg
-tags: [career, international student, reflection]
+tags: [career, reflection]
 author: Yu-Hsuan (Monica) Ko
 ---
 
@@ -55,8 +55,6 @@ Eventually, I found clarity about what I value in a team, how I want to grow, an
 3. **Every interview is a mirror. Use it to understand yourself better.**
 
 ---
-
-If you’re an international student navigating this process, I see you. It’s not easy. But you’re not alone.
 
 I’m still learning, but I hope this story helps someone out there feel a little more hopeful, a little more seen.
 

@@ -154,7 +154,7 @@ subtitle: Data Science Projects
   <h2 id="genai">Generative AI & Large Language Models</h2>
 
   <div class="project-card">
-    <img src="/assets/img/ai-analytics.png" alt="AI Trend Analysis" class="project-image">
+    <img src="/assets/img/ai_analytics.png" alt="AI Trend Analysis" class="project-image">
     <h3>Multi-Industry AI Trend Analysis</h3>
     <p><em>Apr 2025 – May 2025</em></p>
     <ul>
@@ -168,8 +168,6 @@ subtitle: Data Science Projects
         <i class="fab fa-github"></i> View on GitHub <span class="arrow">→</span>
       </a>
     </div>
-  </div>
-
   </div>
 
 
@@ -192,6 +190,7 @@ subtitle: Data Science Projects
 
 
   <div class="project-card">
+    <img src="/assets/img/llm_fraud.png" alt="LLM Fraud" class="project-image">
     <h3>Instruction-Tuned LLMs for Fraud Detection</h3>
     <p><em>Feb 2025 – Mar 2025</em></p>
     <ul>
