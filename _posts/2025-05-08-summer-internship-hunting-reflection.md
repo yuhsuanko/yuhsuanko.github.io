@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lessons from My U.S. Internship Search – Growth Beyond the Resume
+title: Lessons from My Internship Search – Growth Beyond the Resume
 subtitle: How I learned to navigate uncertainty, show up with authenticity, and grow through rejection
 cover-img: /assets/img/IMG_8481.jpeg
 share-img: /assets/img/IMG_8481.jpeg
